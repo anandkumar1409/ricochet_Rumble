@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>RICOCHET RUBMLE</h1>
+    <title>board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+<p id="topText">The game is on</p>
+    <div class="container">
+    <!-- <div class="colorPieces">
+        <div class="white square piece tnk" color="white" id="w1">
+        <img src="img/tank2.jpeg" alt="tank2">
+        </div>
+        <div class="white square piece sr " color="white" id="w2">
+        <img src="img/semi-rico.jpg" alt="semi-rico">
+        </div>
+        <div class="white square piece rr" color="white" id="w3">
+        <img src="img/rico.jpg" alt="rico">
+        </div>
+        <div class="white square piece ttn" color="white" id="w4">
+        <img src="img/TITAN2.jpeg" alt="titan2" class="Img">
+        </div>
+        <div class="white square piece cn" color="white" id="w5">
+        <img src="img/cannon2.jpeg" alt="cannon2" class="Img">
+        </div>
+        <div class="white square piece rr" color="white" id="w6">
+        <img src="img/rico.jpg" alt="rico">
+        </div>
+        <div class="white square piece sr" color="white" id="w7">
+        <img src="img/semi-rico.jpg" alt="semi-rico">
+        </div>
+        <div class="white square piece tnk" color="white" id="w8">
+        <img src="img/tank2.jpeg" alt="tank2">
+        </div>
+    </div> -->
+    
+    <div class="board">
+        <div class="square w">
+            <div class="white piece tnk" piece="tnk" color="white" id="w1">
+                <img src="img/tank2.jpeg" alt="tank2">
+            </div>
+        </div>
+
+        <div class="square bl">
+            <div class="white piece sr " rot="true" piece="sr" color="white" id="w2">
+                <img src="img/semi-rico.jpg" alt="semi-rico">
+            </div>
+        </div>
+
+        <div class="square w">
+            <div class="white piece rr" rot="true" piece="rr" color="white" id="w3">
+                <img src="img/rico.jpg" id="ricoPiece" alt="rico">
+            </div>
+        </div>
+
+        <div class="square bl">
+            <div class="white piece ttn" piece="ttn"  color="white" id="w4">
+                <img src="img/TITAN2.jpeg" alt="titan2" class="Img">
+            </div>
+        </div>
+
+        <div class="square w">
+            <div class="white piece cn" piece="cn" color="white" id="w5">
+                <img src="img/cannon2.jpeg" alt="cannon2" class="Img">
+            </div>
+        </div>
+
+        <div class="square bl">
+            <div class="white piece rr" rot="true" piece="rr" color="white" id="w6">
+                <img src="img/rico.jpg" alt="rico">
+            </div>
+        </div>
+
+        <div class="square w">
+            <div class="white piece sr" rot="true" piece="sr"  color="white" id="w7">
+                <img src="img/semi-rico.jpg" alt="semi-rico">
+            </div>
+        </div>
+
+        <div class="square bl">
+            <div class="cord rank wt">8</div><div class="white piece tnk" piece="tnk" color="white" id="w8">
+                <img src="img/tank2.jpeg" alt="tank2">
+            </div>
+        </div>
+
+
+        <!--7-->
+        
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"><div class="cord rank bt">7</div></div>
+        <!--6-->
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"><div class="cord rank wt">6</div></div>
+        <!--5-->
+        
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"><div class="cord rank bt">5</div></div>
+        <!--4-->
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"><div class="cord rank wt">4</div></div>
+        <!--3-->
+
+        
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"><div class="cord rank bt">3</div></div>
+        <!--2-->
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"></div>
+        <div class="square w"></div>
+        <div class="square bl"><div class="cord rank wt">2</div></div>
+        
+        <!--1-->
+        
+        <div class="square bl">
+            <div class="black piece tnk" piece="tnk" color="black" id="bl1"><img src="img/tank2b.jpeg" alt="tank2b"class="Img"></div>
+            <div class="cord wt">a</div>
+        </div>
+        <div class="square w"><div class="black piece sr" rot="true" piece="sr" color="black" id="bl2"><img src="img/semi-ricob.jpg" alt="semi-ricob" class="Img"></div>
+            <div class="cord bt">b</div>
+        </div>
+        <div class="square bl"><div class="black piece rr" rot="true" piece="rr" color="black" id="bl3"><img src="img/ricob.jpg" alt="ricob" class="Img"></div>
+            <div class="cord wt">c</div>
+        </div>
+        <div class="square w"><div class="black piece ttn" piece="ttn" color="black" id="bl4"><img src="img/TITAN2b.jpeg"alt="titan2b" class="Img"></div>
+            <div class="cord bt">d</div>
+        </div>
+        <div class="square bl"> <div class="black piece cn" piece="cn" color="black" id="bl5"><img src="img/cannon2b.jpeg" alt="cannon2b" class="Img"></div>
+            <div class="cord wt">e</div>
+        </div>
+        <div class="square w"><div class="black piece rr" rot="true" piece="rr" color="black" id="bl6"><img src="img/ricob.jpg" alt="ricob" class="Img"></div>
+            <div class="cord bt">f</div>
+        </div>
+        <div class="square bl"><div class="black piece sr" rot="true" piece="sr" color="black" id="bl7"><img src="img/semi-ricob.jpg" alt="semi-ricob" class="Img"></div>
+            <div class="cord wt">g</div>
+        </div>
+        <div class="square w"><div class="black piece tnk" piece="tnk" color="black" id="bl8"><img src="img/tank2b.jpeg" alt="tank2b"class="Img"></div>
+            <div class="cord bt">h</div>
+            <div class="cord rank bt">1</div>
+            
+        </div>
+
+    </div>
+    <!-- <div class="blackPieces">
+        <div class="black piece tnk" color="black" id="bl1"><img src="img/tank2b.jpeg" alt="tank2b"class="Img"></div>
+        <div class="black piece sr" color="black" id="bl2"><img src="img/semi-ricob.jpg" alt="semi-ricob" class="Img"></div>
+        <div class="black piece rr" color="black" id="bl3"><img src="img/ricob.jpg" alt="ricob" class="Img"></div>
+        <div class="black piece ttn" color="black" id="bl4"><img src="img/TITAN2b.jpeg"alt="titan2b" class="Img"></div>
+        <div class="black piece cn" color="black" id="bl5"><img src="img/cannon2b.jpeg" alt="cannon2b" class="Img"></div>
+        <div class="black piece rr" color="black" id="bl6"><img src="img/ricob.jpg" alt="ricob" class="Img"></div>
+        <div class="black piece sr" color="black" id="bl7"><img src="img/semi-ricob.jpg" alt="semi-ricob" class="Img"></div>
+        <div class="black piece tnk" color="black" id="bl8"><img src="img/tank2b.jpeg" alt="tank2b"class="Img"></div>
+    </div> -->
+    </div>
+    <br>
+    <button onclick="rotateRico()" id="rotate-button">Rotate</button>
+    <script src="script.js"></script>
+    <canvas id="canvas"></canvas>
+
+    
+    <!-- (PART A) SPLASH SCREEN -->
+    <div id="splash" onclick="start()">
+        <img src="img/TITAN2b.jpeg" alt="titan2b" class="splash">
+        <div class="start-text">Click to start!</div>
+      </div>      
+    
+    <!-- (PART B) BGM -->
+    <audio controls id="bgm" src="RiveR-Solo.mp3" loop></audio>  
+    
+
+</body>
+</html>
